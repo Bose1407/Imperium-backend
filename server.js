@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 4000;
 // Middleware
 app.use(
   cors({
-    origin: ["https://team-imperium.netlify.app/contact"],
+    origin: "https://team-imperium.netlify.app/",
     credentials: true,
   })
 );
